@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Fun Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz</h1>
+
+    <div id="progress-text"></div>
+    <div class="progress-bar">
+      <div id="progress"></div>
+    </div>
+
+    <div id="question-container" class="hidden">
+      <p id="question"></p>
+      <ul id="answers" class="answer-list"></ul>
+    </div>
+
+    <button id="next-btn" class="hidden">Next</button>
+    <div id="result" class="hidden">
+      
+      <button id="restart-btn">Restart Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
